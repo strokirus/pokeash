@@ -28,6 +28,6 @@ apanhou?
 * Make test - Para executar o os testes do projeto
 
 ###### Estrutura do projeto
-index.js -> Recebe a lista de itens a serem executados
-pokemon.js -> Regras de negócio para o desafio
-pokemon.test.js -> Arquivos onde estão escritos os testes
+* index.js -> Recebe a lista de itens a serem executados
+* pokemon.js -> Regras de negócio para o desafio
+* pokemon.test.js -> Arquivos onde estão escritos os testes
