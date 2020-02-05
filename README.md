@@ -26,3 +26,8 @@ apanhou?
 * Make setup - Para instalar as dependencias do projeto (basicamente o jest para testes)
 * Make run - Para executar o projeto utilizando como base o arquivo test.txt
 * Make test - Para executar o os testes do projeto
+
+###### Estrutura do projeto
+index.js -> Recebe a lista de itens a serem executados
+pokemon.js -> Regras de negócio para o desafio
+pokemon.test.js -> Arquivos onde estão escritos os testes
