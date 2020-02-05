@@ -47,10 +47,6 @@ const catchPokemons = (str) => {
     let actual = Object.keys(trail)[0];
     let lat, lon;
 
-    if (steps.length === 1) {
-        return 2;
-    }
-
     steps.forEach(step => {
         [ lat, lon ] = actual.split(',');
         const walk = walkLatLon(lat, lon, step);
@@ -74,4 +70,5 @@ const catchPokemons = (str) => {
 
 module.exports = {
     catchPokemons,
+    walkLatLon,
 }
